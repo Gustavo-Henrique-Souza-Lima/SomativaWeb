@@ -1,0 +1,199 @@
+/* CORPO DO SITE */
+body {
+    background-image: url('https://img.elo7.com.br/product/zoom/22E441C/painel-cidade-herois-g-frete-gratis-lona.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* IMAGEM DO SENAI */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50px;
+}
+
+/* TITULO: Biblioteca SENAI Conhecimento e Inovação */
+.titulo {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+/* BOTAO DE PESQUISAR */
+input {
+    width: 400px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 15px; 
+    margin-left: 180px;
+}
+
+/* CAIXA DOS BOTOES: PESQUISAR, CADASTRAR E ENTRAR */
+.botoes {
+    text-align: center;
+    background-color: rgb(255, 183, 0);
+    width: 850px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 0 10px 3px ;
+}
+
+/* BOTAO CADASTRO */
+.cadastro {
+    margin-left: 100px;
+}
+
+/* BOTOES CADASTRAR, ENTRAR E CATALOGO */
+button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 50px;
+}
+
+/* CAIXA QUE CONTEM O TEXTO SOBRE A BIBLIOTECA DO SENAI */
+.sobre {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    background-color: rgb(255, 183, 0);
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 0 10px 3px black;
+}
+
+/* TEXTO SOBRE O CATALOGO DE LIVROS */
+.catalogo {
+    text-align: center;
+    color: white;
+}
+
+/* Container principal para os livros */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+/* TITULO: DESTAQUE */
+.destaque {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: x-large;
+    width: 250px;
+    height: 30px;
+    color: white;
+    background-color:rgb(255, 183, 0);
+    border-radius: 50px;
+}
+
+/* CAIXA DE ESPECIFICAÇÃO DOS LIVROS */
+.caixa, .caixa1, .caixa3, .caixa4, .caixa5, .caixa6 {
+    width: 170px;
+    height: 270px;
+    background-color: rgb(255, 183, 0);
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+/* IMAGEM DO LIVRO */
+.livros {
+    width: 130px;
+    height: 160px;
+    margin-top: 8px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.livros:hover {
+    transform: scale(1.05) rotateY(5deg); /*Efeito 3D ao passar o mouse */
+}
+
+/* NOME DO LIVRO */
+.livro {
+    margin-top: 5px;
+    color: white;
+}
+
+/* AUTOR DO LIVRO */
+.autor {
+    margin-top: 1px;
+}
+
+/* LINK DOS BOTOES */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* RESPONSIVIDADE */
+/* Para telas de até 768px (tablets) */
+@media (max-width: 768px) {
+    .titulo {
+        margin-top: 20px;
+    }
+
+    input {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixa, .caixa1, .caixa3, .caixa4, .caixa5, .caixa6 {
+        width: 100%;
+    }
+}
+
+/* Para telas de até 480px (smartphones) */
+@media (max-width: 480px) {
+    h3 {
+        font-size: 1rem;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .caixa, .caixa1, .caixa3, .caixa4, .caixa5, .caixa6 {
+        width: 100%;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        width: 150px;
+    }
+}

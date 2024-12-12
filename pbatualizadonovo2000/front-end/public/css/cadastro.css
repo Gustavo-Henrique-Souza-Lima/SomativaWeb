@@ -1,0 +1,46 @@
+/* CAIXA DO LOGIN */
+.login{
+    background-color: rgb(224, 166, 19);
+    width: 400px;
+    height: 460px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+/* CORPO DO SITE */
+body{
+    display: flex; 
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    height: 100vh;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url('https://img.elo7.com.br/product/zoom/22E441C/painel-cidade-herois-g-frete-gratis-lona.jpg');
+} 
+
+/* BOTOES: CADASTRAR E ENTRAR */
+button{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border-color: white;
+    margin: 23px;
+}
+input{
+    border-radius: 50px;
+    border-color:black;
+}
+/* IMAGEM DO SENAI */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50px ;
+    display: block;
+}
+/*  LINK DOS BOTOES */
+a {
+    text-decoration: none;
+    color: white;
+}

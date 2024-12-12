@@ -1,0 +1,161 @@
+body {
+    background-image: url('https://img.elo7.com.br/product/zoom/22E441C/painel-cidade-herois-g-frete-gratis-lona.jpg');
+    background-size: cover;
+    background-position: center; /* Melhor centralização da imagem de fundo */
+}
+
+/* CAIXA QUE CONTEM A DESCRICAO DO LIVRO */
+.sobre {
+    background-color: rgb(255, 183, 0);
+    color: white;
+    display: block;
+    width: 400px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px; /* Menor raio para a borda */
+    padding: 20px; /* Adiciona espaço interno */
+    box-shadow: 0 8px 10px black;
+}
+
+/* IMAGEM DO LIVRO */
+img {
+    border-radius: 20px; /* Ajustado para combinar com a caixa de descrição */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suavização do efeito 3D */
+    box-shadow: 0 5px 10px rgba(253, 252, 252, 0.5); /* Sombra para profundidade */
+}
+/* METODO PARA QUANDO PASSAR O MOUSE EM CIMA TRAZER A IMAGEM PRA FRENTE */
+img:hover {
+    transform: scale(1.05) rotateY(5deg); /*Efeito 3D ao passar o mouse*/
+}
+
+/* CAIXA QUE CONTEM A IMAGEM E A DESCRICAO DO LIVRO */
+
+
+/* CAIXA QUE CONTEM A IMAGEM DENTRO */
+.imagem {
+    text-align: center;
+    width: 400px;
+}
+
+/* EMOJI DE ESTRELAS */
+.estrelas {
+    font-size: 2rem; /* Ajustado para um tamanho mais razoável */
+    margin-top: 10px; /* Espaço acima das estrelas */
+}
+
+/* TITULO DA PAGINA */
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+.livro {
+    margin-top: 1px;
+}
+.titulo {
+    color: black;
+
+}
+p {
+    color: white ;
+    font-size: large
+}
+/* CAIXA QUE CONTTEM A INFORMAÇÕES SOBRE O LIVRO */
+.informacao {
+    background-color: rgb(255, 183, 0) ;
+    width: 600px;
+    height: 200px;
+    margin-top:70px;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 10px black;
+}
+
+/* CAIXA DAS AVALIACOES */
+.avaliacoes {
+    width: 900px;
+    height: 300px;
+    background-color: #424242;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 0 8px 10px black;
+}
+/* IMAGEM DA PESSOA QUE COMENTOU */
+.foto {
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+/* TEXTO DO COMENTARIO */
+.comentario {
+    margin-left: 10px;
+}
+/* ESTRELAS DE AVALLIAÇÃO */
+.star {
+    color: gold;
+    font-size: 24px;
+    
+}
+/* CAIXA QUE CONTEMM AS AVALIAÇÕES DE ESTRELA */
+.estrela {
+    margin-left: 10px;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; /* Coloca imagem e descrição lado a lado em telas maiores */
+        gap: 50px; /* Espaço maior entre imagem e descrição */
+    }
+}
+/* TTULO DA: AVALIAÇÕES */
+.avaliar {
+    background-color:rgb(255, 183, 0);
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 10px;
+    font-size: x-large;
+}
+/* CAIXA QUE CONTEM AS ESTRELAS EMBAIXO DA IMAGEM DO LIVRO */
+.estrelas {
+    color: gold;
+}
+/* DATA DE AVALIAÇÃO  */
+.data {
+    margin-left: 10px;
+}
+.caixaavaliar {
+    display: flex;
+    margin-top: 10PX;
+}
+.botaoavaliar {
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,144 @@
+body {
+    background-image: url('https://img.elo7.com.br/product/zoom/22E441C/painel-cidade-herois-g-frete-gratis-lona.jpg');
+}
+/* IMAGEM DO SENAI */
+.logo{
+    width: 200px;
+    border-radius: 50px;
+}
+/* BOTAO DE VOLTAR A TELA INICIAL */
+.voltar{
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* TITULO: CATALOGO DE LIVROS */
+.catalogo {
+    text-align: center;
+    color: white;
+}
+/* CAIXA DE PESQUISAR E FILTRAR */
+.pesquisar{
+    background-color: rgb(255, 183, 0);
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    box-shadow: 0px 5px 15px black;
+    margin-right: auto;
+}
+/* BARRA DE PESQUISA  */
+.buscar {
+    border-radius: 50px;
+    width: 250px;
+    text-align: center;
+}
+/* BOTAO DE FILTRAR  */
+button {
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+
+/* CAIXA QUE CONTEM AS CAIXAS DOS LIVROS */
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Cria 4 colunas */
+    grid-auto-rows: minmax(100px, auto); /* Altura mínima e automática para as linhas */
+    gap: 1px; /* Espaçamento entre itens */
+    justify-items: center; /* Alinhamento horizontal */
+
+}
+
+.caixa, .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11 {
+    margin-top: 50px;
+    width: 200px;
+    height: 350px;
+    background-color: rgb(255, 183, 0);
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 6px 25px black;
+    padding: 20px;
+
+}
+.livross {
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 10px;
+    max-height: 60%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease ;
+    box-shadow: 0 4px 10px;
+}
+.livross:hover {
+    transform: scale(1.05) rotateY(5deg); /*Efeito 3D ao passar o mouse*/
+}
+.catalogo div:nth-child(n+5) {
+    grid-column: span 1; /* Coloca os itens da segunda fileira ocupando 1 coluna cada */
+    grid-row: span 1; /* Eles continuarão na próxima linha */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CAIXA DE ESPECIAFICAÇÃO DOS LIVROS
+.caixa, .caixa1, .caixa3, .caixa4, .caixa5, .caixa6{
+    width: 170px;
+    height: 270px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(255, 183, 0);
+    color: white;   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* IMAGEM DO LIVRO BATMAN */
+/* .livros{
+    width: 130px;
+    height: 160px;
+    margin-top: 8px;
+    border-radius: 15px;
+
+}
+/* NOME DO LIVRO */
+/* .livro{
+    margin-top: 5px;
+    color: white;
+}
+/* AUTOR DO LIVRO */
+/* .autor{
+    margin-top: 1px;
+}  */

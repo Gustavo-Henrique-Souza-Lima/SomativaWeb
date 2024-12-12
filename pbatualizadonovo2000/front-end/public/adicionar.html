@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/adicionar.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="adicionar-comentario">
+        <h2>Adicionar um Comentário</h2>
+        <form action="processa_comentario.php" method="post">
+            <h3>Nome:</h3>
+            <input class="nome" type="text" placeholder="Seu Nome">            
+            <h3>Coméntario:</h3>
+            <textarea class="nome" name="comentario" rows="4" cols="50" placeholder="Escreva seu comentário" required></textarea>
+
+            <button type="submit">Enviar Comentário</button>
+        </form>
+    </div>
+    </body>
+</html>

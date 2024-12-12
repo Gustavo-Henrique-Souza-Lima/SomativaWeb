@@ -1,0 +1,51 @@
+.adicionar-comentario {
+    margin-top: 20px;
+}
+
+.adicionar-comentario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.adicionar-comentario label {
+    margin-top: 10px;
+}
+
+.adicionar-comentario input, .adicionar-comentario textarea {
+    
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.adicionar-comentario button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body {
+    background-image: url('https://img.elo7.com.br/product/zoom/22E441C/painel-cidade-herois-g-frete-gratis-lona.jpg');
+    background-size: cover;
+    background-position: center; /* Melhor centralização da imagem de fundo */
+}
+.nome {
+    background-color: rgb(255, 183, 0);
+    
+}
+
+::placeholder {
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+h3 {
+    color: white;
+}
